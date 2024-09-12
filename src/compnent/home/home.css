@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+    width: 7px;
+    cursor: progress;
+}
+
+body::-webkit-scrollbar-thumb {
+    width: 10px;
+    background-color: #1d7dbd;
+    cursor: pointer;
+}
+
+.home-page {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../imgs/texno.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 25px;
+    width: 100%;
+    height: 120px;
+    background-color: #134b7063;
+}
+
+.home-container .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 95px;
+    /* margin-top: 10px; */
+    /* border: 1px solid red; */
+}
+
+.home-container .logo img {
+    width: 70px;
+    opacity: .8;
+}
+
+.home-container .logo a {
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+
+.home-container .logo a span {
+    padding-left: 5px;
+}
+
+.home-container .logo h4 {
+    padding-left: 10px;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    color: rgba(255, 255, 255, 0.911);
+}

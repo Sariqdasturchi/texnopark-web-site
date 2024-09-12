@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.header-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 95px;
+    /* border: 1px solid red; */
+    background-color: #134b7038;
+}
+
+.active-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 95px;
+    background-color: #2d515a;
+    transition: all .5s ease;
+    z-index: 9;
+}
+
+.header-page nav, .active-header nav {
+    width: 80%;
+    height: 95px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .logo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 200px;
+    height: 95px;
+    /* border: 1px solid red; */
+}
+
+nav .logo img {
+    width: 70px;
+}
+
+nav .logo a {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+
+nav .logo a span {
+    padding-left: 5px;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 15px;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+
+.phone-btns a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    padding: 15px;
+    background-color: #134B70;
+    color: white;
+    font-weight: 500;
+    font-family: "Monserrat", sans-serif;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.phone-btns a:hover {
+    background-color: #134b70d5;
+}
+
+.phone-btns a span {
+    padding-right: 7px;
+    margin-top: 4px;
+}
