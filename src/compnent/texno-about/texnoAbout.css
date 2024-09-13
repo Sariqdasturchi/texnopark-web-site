@@ -1,14 +1,15 @@
 .texno-about-page {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-color: white;
 }
 
 .texno-about-container {
     width: 80%;
     height: 100vh;
+    margin: 0px auto;
     /* border: 1px solid red; */
 }
 
@@ -73,13 +74,13 @@
     align-items: center;
     width: 100px;
     height: 100px;
-    background-color: #E6FAEE;
+    background-color: #134b7038;
     border-radius: 50%;
 }
 
 .card-icon svg {
     font-size: 30px;
-    color: #9ae2b7;
+    color: #134b70;
 }
 
 .card-title {
@@ -93,7 +94,7 @@
     font-size: 30px;
     font-weight: 600;
     font-family: "Montserrat", sans-serif;
-    color: #212121;
+    color: #201E43;
 }
 
 .card-desc {
@@ -108,4 +109,103 @@
     font-weight: 500;
     font-family: "Montserrat", sans-serif;
     color: #212121c7;
+}
+ /* Prezident contaienr */
+.texno-text {
+    width: 100%;
+    height: auto;
+    background-color: #FBFBFB;
+    /* border: 1px solid red; */
+}
+
+.texno-text-container {
+    width: 80%;
+    height: 100vh;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     /* border: 1px solid red; */
+}
+
+.texno-text-img-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 520px;
+    height: 600px;
+    /* border: 1px solid blue; */
+}
+
+.texno-text-img {
+    width: 520px;
+    height: 600px;
+    background-image: url('../imgs/president.png');
+    background-repeat: no-repeat;
+}
+
+.texno-text-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 870px;
+    height: 600px;
+    /* border: 1px solid green; */
+}
+
+.texno-text-desc h4 {
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    color: #201e43d2;
+}
+
+.texno-text-desc h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    color: #508C9B;
+}
+
+.texno-text-desc p {
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    color: #201e43d2;
+}
+
+.text-user-icon {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    /* border: 1px solid red; */
+}
+
+.user-image-desc {
+    width: 65px;
+    height: 65px;
+    margin-right: 20px;
+    background-color:  #ecebeb;
+    border-radius: 50%;
+    background-image: url('../imgs/president2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.user-icon-txt h5 {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    color: #201e43d2;
+}
+
+.user-icon-txt h2 {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    color: #212121;
 }

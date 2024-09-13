@@ -56,13 +56,41 @@ const TexnoAbout = () => {
                     </div>
                     <div className="texno-card-top">
                         <div className="card-icon">
-                        <FaUsers />
+                            <FaUsers />
                         </div>
                         <div className="card-title">
                             <h1>Mentorlar</h1>
                         </div>
                         <div className="card-desc">
                             <p>Ustozlar haqiqiy praktik Xalqaro toifadagi Dasturchilar hisoblanib, hozirgi kunda turli IT - kompaniyalarda faoliyat yuritib kelishmoqda.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="texno-text">
+                <div className="texno-text-container">
+                    <div className="texno-text-img-cont">
+                        <div className="texno-text-img"></div>
+                    </div>
+                    <div className="texno-text-desc">
+                        <h4>Prezident nutqi</h4>
+                        <h1>Prezident e’tirofi</h1>
+                        <p>
+                            " Odilbek, gaplaringizdan, ko’zlaringizdan shuni sezdimki,
+                             bu kunlarga kelish oson bo’lmagan va buni qadriga yetayapsiz. 
+                             Menga IT mutaxassislarni tayyorlab chiqarish bo’yicha amalga oshirayotgan 
+                             ishlaringiz yoqdi. 100 ming nafar yoshlarimizni 2000 AQSh dollar maoshli 
+                             mutaxassis darajasiga olib chiqishni maqsad qilib qo’ygan ta’lim faoliyatingizni 
+                             qo’llab-quvvatlash bo’yicha O’zbekiston Respublikasi Vazirlar Mahkamasi qarorini 
+                             chiqaramiz. Mana shunday pahlavon, zabardast yoshlarimiz ko’paymoqda. Ular ham o’z 
+                             oldilariga shunday maqsadlarni qo’ysa, men hammasiga yordam beraman."
+                        </p>
+                        <div className="text-user-icon">
+                            <div className="user-image-desc"></div>
+                            <div className="user-icon-txt">
+                                <h5>O’zbekiston Respublikasi Prezidenti</h5>
+                                <h2>Shavkat Miromonovich Mirziyoyev</h2>
+                            </div>
                         </div>
                     </div>
                 </div>

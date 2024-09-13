@@ -7,14 +7,14 @@ const Home = () => {
     return (
         <div className='home-page'>
             <Header />
-            <div className="home-container">
+            {/* <div className="home-container">
                 <div className="logo">
                     <a href="/">
                         <img src={logo} alt="" />
                     </a>
                     <h4>Zamonaviy Kompyuter Kurslari</h4>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 }
