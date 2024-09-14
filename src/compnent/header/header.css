@@ -7,7 +7,7 @@
     width: 100%;
     height: 95px;
     /* border: 1px solid red; */
-    background-color: #134b7038;
+    background-color: #030817;
 }
 
 .active-header {
@@ -17,7 +17,8 @@
     position: fixed;
     width: 100%;
     height: 95px;
-    background-color: #10698b;
+    background-color: white;
+    box-shadow: 1px 2px 4px silver;
     transition: all .5s ease;
     z-index: 9;
 }
@@ -60,6 +61,10 @@ nav .logo a {
     color: white;
 }
 
+.text-active {
+    color: black;
+}
+
 nav .logo a span {
     padding-left: 5px;
 }
@@ -83,7 +88,7 @@ ul li a {
     justify-content: space-between;
     text-decoration: none;
     padding: 15px;
-    background-color: #134B70;
+    background-color: #123750;
     color: white;
     font-weight: 500;
     font-family: "Monserrat", sans-serif;

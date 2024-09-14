@@ -1,14 +1,28 @@
+import Course from "./compnent/course/course";
 import Home from "./compnent/home/home";
-import TexnoAbout from "./compnent/texno-about/texnoAbout";
+
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
 
 
 function App() {
-  return (
-    <>
-      <Home />
-      <TexnoAbout />
-    </>
-  );
-}
 
-export default App;
+    const router = createBrowserRouter([
+      {
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "/course",
+        element: <Course />
+      }
+    ]);
+
+    return (
+      <>
+        <RouterProvider router={router} />
+      </>
+    );
+  }
+
+  export default App;

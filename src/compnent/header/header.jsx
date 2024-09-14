@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { FaPhone } from "react-icons/fa6";
 import './header.css';
 import logo from '../imgs/logotexnopark.png'
+import logo2 from '../imgs/logoBlack.png'
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     const [navbar, setNavbar] = useState(false)
@@ -20,17 +22,17 @@ const Header = () => {
         <div className={navbar ? 'active-header' : 'header-page'}>
             <nav>
                 <div className="logo">
-                    <a href="/">
-                        <img src={logo} alt="" />
-                        <span>Samarqand <br /> Yoshlar <br /> Texnopark</span>
+                    <a  href="/">
+                        <img src={navbar ? logo2 : logo} alt="" />
+                        <span className={navbar ? 'text-active' : 'text'}>Samarqand <br /> Yoshlar <br /> Texnopark</span>
                     </a>
                 </div>
                 <div className="menu-list">
                     <ul>
-                        <li><a href="#">Bosh sahifa</a></li>
-                        <li><a href="#">Kurslar</a></li>
-                        <li><a href="#">Xizmatlar</a></li>
-                        <li><a href="#">Biz haqimizda</a></li>
+                        <li><Link className={navbar ? 'text-active' : 'text'} to={'/'}>Bosh sahifa</Link></li>
+                        <li><Link className={navbar ? 'text-active' : 'text'} to={'/course'}>Kurslar</Link></li>
+                        <li><Link className={navbar ? 'text-active' : 'text'} to={'/services'}>Xizmatlar</Link></li>
+                        <li><Link className={navbar ? 'text-active' : 'text'} to={'/about'}>Biz haqimizda</Link></li>
                     </ul>
                 </div>
                 <div className="phone-btns">

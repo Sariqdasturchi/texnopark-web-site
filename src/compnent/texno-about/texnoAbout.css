@@ -132,23 +132,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 520px;
+    width: 680px;
     height: 600px;
     /* border: 1px solid blue; */
 }
 
 .texno-text-img {
-    width: 520px;
+    width: 680px;
     height: 600px;
-    background-image: url('../imgs/president.png');
+    background-image: url('../imgs/president.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
 }
 
 .texno-text-desc {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 870px;
+    width: 800px;
     height: 600px;
     /* border: 1px solid green; */
 }

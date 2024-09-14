@@ -1,0 +1,48 @@
+.course-container {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.course-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 85vh;
+    /* border: 1px solid red; */
+}
+
+.course-title-text-cont {
+    display: flex;
+    align-items: end;
+    width: 80%;
+    height: 85px;
+    /* border: 1px solid blue; */
+}
+
+.course-title-text-cont h3 {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    color: #212121;
+}
+
+.course-cards-cont {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    width: 80%;
+    height: auto;
+    padding-top: 15px;
+    /* border: 1px solid blue; */
+}
+
+.course-card {
+    width: 300px;
+    height: 300px;
+    border: 1px solid silver;
+    border-radius: 15px;
+    background: linear-gradient(45deg, #030817ef, #4a2777fb);
+    cursor: pointer;
+}

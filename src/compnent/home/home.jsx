@@ -1,21 +1,22 @@
 import React from 'react';
 import './home.css';
 import Header from '../header/header';
-import logo from '../imgs/logotexnopark.png'
+import TexnoAbout from '../texno-about/texnoAbout';
+import Map from '../map/map';
+import Footer from '../footer/footer';
+
 
 const Home = () => {
+    
     return (
-        <div className='home-page'>
-            <Header />
-            {/* <div className="home-container">
-                <div className="logo">
-                    <a href="/">
-                        <img src={logo} alt="" />
-                    </a>
-                    <h4>Zamonaviy Kompyuter Kurslari</h4>
-                </div>
-            </div> */}
-        </div>
+        <>
+            <div className='home-page'>
+                <Header />
+            </div>
+            <TexnoAbout />
+            <Map />
+            <Footer />
+        </>
     );
 }
 
