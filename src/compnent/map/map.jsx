@@ -1,5 +1,6 @@
 import React from 'react';
 import './map.css';
+import './mobileStyle.css'
 
 const Map = () => {
     return (

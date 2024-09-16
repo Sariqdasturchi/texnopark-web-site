@@ -87,6 +87,154 @@
         /* border: 1px solid blue; */
     }
 
+    .texno-text-img-cont{
+        width: 100%;
+    }
+
+    .texno-text-img {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .texno-text-desc {
+        width: 100%;
+        height: 700px;
+        margin-top: -200px;
+        /* border: 1px solid blue; */
+    }
+
+    .texno-text-desc h4 {
+        font-size: 20px;
+    }
+
+    .texno-text-desc h1 {
+        font-size: 34px;
+    }
+
+    .texno-text-desc p {
+        text-align: start;
+        font-size: 16px;
+    }
+
+    .text-user-icon {
+        width: 100%;
+        height: 100px;
+        /* border: 1px solid green; */
+    }
+
+    .user-image-desc {
+        width: 70px;
+        height: 70px;
+    }
+
+    .user-icon-txt {
+        width: 250px;
+        height: auto;
+        /* border: 1px solid blue; */
+    }
+
+    .user-icon-txt h5  {
+        font-size: 14px;
+    }
+
+    .user-icon-txt h2 {
+        font-size: 17px;
+    }
+}
+
+@media screen and ( 420px < width < 720px) {
+    .texno-about-page {
+        width: 100%;
+        height: auto;
+    }
+    
+    .texno-about-container {
+        width: 100%;
+        height: auto;
+    }
+    
+    .texno-about-title {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        /* border: 1px solid blue; */
+    }
+    
+    .texno-about-title h1 {
+        font-size: 20px;
+    }
+    
+    .texno-about-title div {
+        width: 100%;
+    }
+    
+    .texno-about-title div p {
+        font-size: 16px;
+    }
+    
+    .texno-about-cards {
+        width: 100%;
+        height: auto;
+        /* border: 1px solid red; */
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 25px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .texno-card, .texno-card-top {
+        width: 95%;
+        height: 300px;
+    }
+    
+    .texno-card-top {
+        margin-top: 0;
+    }
+    
+    .card-icon {
+        width: 60px;
+        height: 60px;
+        margin-top: 15px;
+    }
+    
+    .card-title {
+        height: auto;
+    }
+    
+    .card-title h1 {
+        font-size: 20px;
+    }
+    
+    .card-desc p {
+        font-size: 16px;
+    }
+
+    .texno-text {
+        width: 100%;
+        height: auto;
+        /* border: 1px solid red; */
+    }
+
+    .texno-text-container {
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .texno-text-img-cont .texno-text-img {
+        width: 355px;
+        height: 320px;
+        /* border: 1px solid blue; */
+    }
+
+    .texno-text-img-cont{
+        width: 100%;
+    }
+
     .texno-text-img {
         background-size: cover;
         background-repeat: no-repeat;

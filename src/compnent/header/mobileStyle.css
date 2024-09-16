@@ -1,5 +1,47 @@
 @media screen and (width < 420px) {
-    .active-header, .header-page {
+    .header-page, .active-header {
+        width: 100%;
+        height: 85px;
+        overflow-x: auto;
+    }
+
+    .active-header nav, .header-page nav {
+        width: 100%;
+        height: 85px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .active-header nav ul, .header-page nav ul {
+        display: none;
+    }
+
+    .active-header nav .logo, .header-page nav .logo {
+        justify-content: center;
+    }
+
+    .active-header nav .logo a, .header-page nav .logo a {
+        width: 200px;
+        height: 80px;
+        /* border: 1px solid red; */
+    }
+
+    .active-header nav .logo a img, .header-page nav .logo a img {
+        width: 50px;
+    }
+
+    .active-header nav .logo a span, .header-page nav .logo a span {
+        font-size: 16px;
+        margin-left: -25px;
+    }
+    .phone-btns {
+        display: none;
+    }
+}
+
+@media screen and ( 420px < width < 720px ) {
+    .header-page, .active-header {
         width: 100%;
         height: 85px;
         overflow-x: auto;
