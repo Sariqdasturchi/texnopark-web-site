@@ -1,5 +1,6 @@
 import React from 'react';
 import './texnoAbout.css';
+import './mobileStyle.css'
 import { FaBriefcase } from "react-icons/fa6";
 import { FaChartLine } from "react-icons/fa6";
 import { GiTrophy } from "react-icons/gi";

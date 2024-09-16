@@ -1,0 +1,6 @@
+@media screen and (width < 420px) {
+    .footer-container {
+        width: 100%;
+        overflow-x: hidden;
+    }
+}

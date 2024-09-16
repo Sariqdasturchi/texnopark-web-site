@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { FaPhone } from "react-icons/fa6";
 import './header.css';
+import './mobileStyle.css';
 import logo from '../imgs/logotexnopark.png'
 import logo2 from '../imgs/logoBlack.png'
 import { Link } from 'react-router-dom';

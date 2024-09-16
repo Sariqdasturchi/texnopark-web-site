@@ -1,5 +1,6 @@
 import React from 'react';
 import './home.css';
+import './mobileStyle.css';
 import Header from '../header/header';
 import TexnoAbout from '../texno-about/texnoAbout';
 import Map from '../map/map';
