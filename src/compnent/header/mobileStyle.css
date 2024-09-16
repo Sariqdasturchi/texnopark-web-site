@@ -2,7 +2,6 @@
     .header-page, .active-header {
         width: 100%;
         height: 85px;
-        overflow-x: auto;
     }
 
     .active-header nav, .header-page nav {
@@ -37,6 +36,120 @@
     }
     .phone-btns {
         display: none;
+    }
+
+    .menu-humberger {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 45px;
+        /* border: 1px solid red; */
+    }
+
+    .menu-humberger button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 35px;
+        background-color: transparent;
+        border: none;
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
+    }
+
+    .menu-humberger .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 35px;
+        background-color: transparent;
+        border: none;
+        font-size: 30px;
+        cursor: pointer;
+        color: #030817;
+    }
+
+    .menu-humberger .active-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 35px;
+        background-color: transparent;
+        border: none;
+        font-size: 30px;
+        cursor: pointer;
+        color: white;
+    }
+
+    .menu-list {
+        position: fixed;
+        display: none;
+        width: 450px;
+        height: auto;
+        background-color: #030817;
+        z-index: 99999;
+    }
+
+    .active-menu-list {
+        width: 450px;
+        height: auto;
+        position: absolute;
+        left: 0;
+        background-color: transparent;
+    }
+
+    .active-header nav ul, .header-page nav ul {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 85px;
+        left: 0px;
+        animation: menuHumberger 1s ease;
+        z-index: 9999
+    }
+
+    .active-header nav ul li a, .header-page nav ul li a {
+        font-size: 16px;
+    }
+
+    @keyframes menuHumberger {
+        from {
+            margin-left: -400px;
+            transition: 1s ease;
+        }
+
+        to {
+            margin-left: 0px;
+            transition: 1s ease
+        }
+    }
+
+    @keyframes menuHumbergerNoActive {
+        from {
+            margin: 0px;
+        }
+        to {
+            margin-left: -400px;
+        }
+    }
+
+    .close-btn {
+        display: block;
+        z-index: 99;
+    }
+
+    .active-close-btn {
+        display: none;
+        z-index: 99;
     }
 }
 
@@ -44,7 +157,6 @@
     .header-page, .active-header {
         width: 100%;
         height: 85px;
-        overflow-x: auto;
     }
 
     .active-header nav, .header-page nav {
@@ -79,5 +191,27 @@
     }
     .phone-btns {
         display: none;
+    }
+
+    .menu-humberger {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 45px;
+        /* border: 1px solid red; */
+    }
+
+    .menu-humberger button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 35px;
+        background-color: transparent;
+        border: none;
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
     }
 }
